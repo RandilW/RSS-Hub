@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>RSS Hub - Randil Wijayananda</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Chivo:300,700" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>RSS Hub</h1>
+        <p>Stay up-to-date with your favorite websites and latest news</p>
+    </header>
+
+    <main>
+        <p>Enter the URL of an RSS feed to add it to the list:</p>
+        <form id="rss-form">
+            <input type="text" id="rss-input">
+            <button type="button" id="add-button">Add Feed</button>
+        </form>
+        <div id="articles">
+            <h2>Loading articles...</h2>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 RSS Feed Articles | GitHub <a href="https://github.com/RandilW">(https://github.com/RandilW)</a>
+        </p>
+        <!-- <i class="fa fa-github fa-2x" aria-hidden="true"></i> -->
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
