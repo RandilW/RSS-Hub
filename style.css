@@ -121,6 +121,18 @@ form {
     background-color: #555;
 }
 
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 30px;
+    }
+    header p {
+        font-size: 15px;
+    }
+    .article img {
+        width: 100%;
+    }
+}
+
 /* Loading indicator styles */
 .loader {
     display: inline-block;
